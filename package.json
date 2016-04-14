@@ -1,0 +1,36 @@
+{
+  "name": "faa-info",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chaijs/chai"
+  },
+  "keywords": [
+    "BDD",
+    "/",
+    "TDD",
+    "assertion",
+    "framework",
+    "for",
+    "node.js"
+  ],
+  "author": "Jake Luer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chaijs/chai/issues"
+  },
+  "homepage": "https://github.com/chaijs/chai",
+  "dependencies": {
+    "alexa-app": "^2.3.2",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "lodash": "^4.11.1",
+    "mocha": "^2.4.5",
+    "request-promise": "^2.0.1"
+  }
+}
