@@ -25,6 +25,7 @@ describe('FAADataHelper', function() {
 			it('returns matching airport code', function() {
 
 				airport_code = 'SFO'; // Original code, works
+				// airport_code = 'PUNKYBREWSTER'; // Test code, works
 
 				var value = subject.requestAirportStatus(airport_code).then(function(obj) {
 					return obj.IATA;
